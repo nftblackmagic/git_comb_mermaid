@@ -4,7 +4,7 @@
 import { useState } from "react";
 import FileList from "./FileList";
 import CombinedContent from "./CombinedContent";
-import MermaidChart from "./MermaidChart"; // Add this import
+// import MermaidChart from "./MermaidChart"; // Add this import
 
 export default function RepoViewer() {
   const [repoUrl, setRepoUrl] = useState("");
